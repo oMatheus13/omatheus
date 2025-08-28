@@ -1,0 +1,56 @@
+Direção Visual — Conceito Geral
+A estética visual da marca Matheus Farias segue os princípios definidos no brandbook, sendo:
+
+Editorial, Cinematográfica e Atemporal.
+
+Combinação de clareza, profundidade emocional e leveza visual.
+
+Espaços vazios intencionais, composição equilibrada, hierarquia bem definida.
+
+Efeitos e Acabamentos Visuais:
+Efeito de vidro real: vidro com textura, rachaduras, riscos e imperfeições visíveis, sutis e intencionais.
+
+Ruído sutil: aplicado em fundos claros e escuros, quebra a rigidez do digital e traz organicidade.
+
+Sombras: longas, suaves e difusas, aplicadas para criar profundidade emocional e elegância.
+
+Contraste: equilibrado. O site deve parecer uma publicação impressa de altíssima qualidade.
+
+Instruções sobre a Logo — Matheus Farias
+A logo é uma composição tipográfica pura, limpa e direta.
+
+“MATHEUS” → fonte Griff Semibold
+
+“FARIAS” → fonte Griff Light
+
+Escrita junta, sem espaçamento extra, sem separação.
+
+Formas de Aplicação:
+Horizontal Quando há espaço suficiente na horizontal. Prioritário em cabeçalhos, centro do site, rodapés e áreas amplas.
+Empilhada (Stacked) Quando o espaço é limitado na horizontal ou a composição pede formato vertical.
+
+Regras de Alinhamento:
+O alinhamento da logo é sempre relativo à composição onde ela está inserida.
+
+Se aplicada na esquerda → alinhamento à esquerda.
+
+Se aplicada no centro → logo fica centralizada. Se há espaço, permanece na versão horizontal. Se não há espaço suficiente, utiliza-se a versão empilhada.
+
+Se aplicada na direita → alinhamento à direita.
+
+→ A logo nunca fica “solta”. Sempre segue a lógica do grid e do alinhamento da composição local.
+
+Outras regras:
+Sem molduras, caixas, linhas ou qualquer elemento extra.
+
+Sempre aplicada diretamente sobre o fundo (claro ou escuro) usando a hierarquia de contraste da paleta.
+
+Instruções gerais (Complementares ao Brandbook):
+Consultar obrigatoriamente o Brandbook completo para entendimento total dos princípios de uso.
+
+Toda aplicação visual, tanto digital quanto impressa, deve respeitar esses princípios, mesmo com adaptações necessárias para contexto, plataforma ou formato.
+
+Atenção final:
+Se parecer um template genérico, está ERRADO.
+
+Se parecer uma peça editorial, cinematográfica, com textura, profundidade e presença, está CERTO.

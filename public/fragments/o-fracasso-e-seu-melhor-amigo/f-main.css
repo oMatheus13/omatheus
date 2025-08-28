@@ -1,0 +1,596 @@
+:root {
+    --colorPrincipal: #0d1c50;
+    --colorSecondary: #7399df;
+}
+
+/* Classe Base de Botão */
+.button {
+    width: 100%;
+    max-width: 350px;
+    height: 60px;
+    padding: 10px;
+    border-radius: 20px 0;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: all 0.4s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.button:hover {
+    /* letter-spacing: 1px; */
+    transform: scale(1.05);
+}
+
+/* Estilos específicos para cada botão */
+
+/* Botão Principal */
+.button--main {
+    background-color: #fff;
+    color: var(--colorPrincipal);
+    box-shadow: rgba(255, 255, 255, 0.40) 0 0 8px;
+}
+
+.button--main:hover {
+    background-color: #7399df;
+    color: #fff;
+    box-shadow: #7399df80 0 0 10px;
+}
+
+/* Botão de Características */
+.button--features {
+    background-color: var(--colorPrincipal);
+    color: #fff;
+    padding: 5%;
+}
+
+.button--features:hover {
+    background-color: var(--colorSecondary);
+    box-shadow: #7399df80 0 0 10px;
+}
+
+/* Botão de Testemunhas */
+.button--testimonial {
+    background-color: var(--colorPrincipal);
+    color: #fff;
+    box-shadow: rgba(255, 255, 255, 0.40) 0 0 8px;
+}
+
+.button--testimonial:hover {
+    background-color: #7399df;
+    box-shadow: #7399df80 0 0 10px;
+}
+
+/* Botão de Benefícios */
+.button--benefits {
+    background-color: #fff;
+    color: var(--colorPrincipal);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.button--benefits:hover {
+    background-color: var(--colorPrincipal);
+    color: #fff;
+    box-shadow: 0 0 12px rgba(255, 255, 255, 0.5);
+    transform: translateY(-3px);
+}
+
+.button--benefits:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Botão de CTA */
+.button--cta {
+    background-color: #fff;
+    color: var(--colorPrincipal);
+    box-shadow: rgba(255, 255, 255, 0.40) 0 0 8px;
+}
+
+.button--cta:hover {
+    background-color: #7399df;
+    color: #fff;
+    box-shadow: #7399df80 0 0 10px;
+}
+
+.body {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    justify-content: center;
+    font-family: Montserrat, sans-serif;
+    overflow-x: hidden;
+}
+
+.body::-webkit-scrollbar {
+    display: block;
+}
+
+.header__main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    background-color: #000;
+}
+
+.header__main-banner {
+    display: flex;
+    width: 70%;
+}
+
+@media screen and (max-width: 768px) {
+    .header__main-banner {
+        width: 100%;
+    }
+}
+
+/* Seção Principal*/
+
+.section {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5%;
+    padding-bottom: 25%;
+}
+
+@media screen and (max-width: 768px) {
+    .section {
+        padding: 15% 10% 30% 10%;
+    }
+}
+
+.main {
+    background-color: #000;
+}
+
+.main-headline {
+    font-weight: 300;
+    color: #fff;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.main-headline--highlighted {
+    font-weight: 700;
+}
+
+.main-subheadline {
+    font-weight: 300;
+    color: #fff;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.main-subheadline--highlighted {
+    font-weight: 700;
+}
+
+/* Seção Conteúdo do eBook */
+
+.features {
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0;
+    padding-bottom: 10%;
+    background-image: conic-gradient(var(--colorSecondary), var(--colorPrincipal));
+}
+
+.features-box {
+    width: 90%;
+    padding: 40px;
+    margin-top: -15%;
+    border-radius: 80px 0;
+    position: relative;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+    .features-box {
+        border-radius: 10vw 0;
+    }
+}
+
+.features h1 {
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.features p {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.features-list {
+    list-style-type: none;
+}
+
+.features-list li {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/* Efeito visual para os itens da lista */
+.features-list li:hover {
+    color: var(--colorSecondary);
+    transform: translateX(10px);
+    transition: transform 0.3s ease;
+}
+
+@media screen and (max-width: 768px) {
+    .button--features {
+        font-size: 16px;
+        padding: 12px;
+    }
+}
+
+.features-list span {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+/* Seção Testemunhas */
+
+.testimonial {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+    padding-bottom: 40px;
+}
+
+.testimonial h1 {
+    width: 100%;
+    font-weight: 400;
+    margin: 5%;
+    text-align: center;
+}
+
+.testimonial h1 span {
+    font-weight: 700;
+}
+
+.testimonial-card {
+    width: 300px;
+    height: 400px;
+    position: relative;
+    background-color: var(--colorPrincipal);
+    border-radius: 40px 0 40px 0;
+    padding: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.testimonial-card-header {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+}
+
+.testimonial-card-quote {
+    font-size: 80px;
+    font-weight: 700;
+    color: #fff;
+    top: -10px;
+    left: -10px;
+    position: absolute;
+    font-style: italic;
+}
+
+.testimonial-card-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.testimonial-card-message {
+    font-size: 16px;
+    color: #fff;
+    font-style: italic;
+    text-align: left;
+}
+
+.testimonial-card-footer {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.testimonial-card-photo {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 10px 0 10px 0;
+}
+
+.testimonial-card-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+}
+
+/* Cartão Reservado */
+.testimonial-card-reserved {
+    display: flex;
+    align-items: center;
+    background: #e4eeff;
+    border: 4px dashed var(--colorPrincipal);
+    padding: 20px;
+    margin-top: 30px;
+}
+  
+.testimonial-card-reserved h1 {
+    font-weight: 600;
+    font-size: 1.8rem;
+    color: #3b3f8e;
+    margin-bottom: 20px;
+}
+
+/* Seção de Bônus */
+
+.benefits {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0;
+    padding-bottom: 20px;
+    background-image: linear-gradient(var(--colorPrincipal), var(--colorSecondary));
+}
+
+.benefits-title {
+    width: 100%;
+    font-weight: 400;
+    text-align: center;
+    padding: 20px 3% 20px 3%;
+    color: #fff;
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.benefits-title span {
+    font-weight: 700;
+}
+
+.benefits-card {
+    width: 180px;
+    height: 500px;
+    border-radius: 20px 0 20px 0;
+    background-color: #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.benefits-card:hover {
+    transform: scale(1.04);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+    background-color: #f4f4f8;
+}
+
+.benefits-img {
+    width: 100%;
+    border-radius: 20px 0 20px 0;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.benefits-card:hover .benefits-img {
+    transform: scale(1.03);
+}
+
+.benefits-card-title {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.benefits-card-title h1 {
+    margin: 10px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.benefits p {
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* Preço */
+.benefits-card-price {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 16px;
+    color: #ff4d4f;
+    text-decoration: line-through;
+    background: #f7f7fb;
+    border-radius: 0 0 20px 0;
+}
+
+.benefits-card-invaluable {
+    text-decoration: none;
+    font-size: 16px;
+    color: #3b3f8e;
+}
+
+.benefits-card h2 {
+    text-align: center;
+    font-size: 16px;
+}
+
+/* Geral */
+.cta {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    background: linear-gradient(135deg, var(--colorPrincipal), var(--colorSecondary));
+    color: #ffffff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Título da CTA */
+.cta-title h1 {
+    font-size: 2.2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.cta-title p {
+    font-size: 1.1rem;
+    font-weight: 400;
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto 30px;
+    line-height: 1.6;
+}
+
+/* Estilo do Cartão */
+.cta-card {
+    display: flex;
+    gap: 20px;
+    background: #ffffff;
+    border-radius: 20px 0 20px 0;
+    padding: 20px;
+    color: #333333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cta-card>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Primeira parte do cartão - título e desconto */
+.cta-card-one h1 {
+    font-size: 1.5rem;
+    color: #3b3f8e;
+    text-align: center;
+}
+
+.cta-pricecard-discount {
+    background: var(--colorSecondary);
+    color: #ffffff;
+    font-size: 1rem;
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.cta-pricecard-total {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: line-through 2px;
+    color: #ff4d4f;
+}
+
+/* Segunda parte do cartão - preço */
+.cta-card-two p {
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+.cta-pricecard-preco {
+    font-size: 2rem;
+    color: var();
+    font-weight: bold;
+}
+
+.cta-pricecard-preco span {
+    font-size: 2.2rem;
+}
+
+/* Estilo Responsivo */
+@media (max-width: 768px) {
+    .cta {
+        padding: 20px;
+    }
+
+    .cta-card {
+        width: 300px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .cta-title h1 {
+        font-size: 1.8rem;
+    }
+
+    .cta-title p {
+        font-size: 1rem;
+    }
+
+    .cta-pricecard-preco {
+        font-size: 1.8rem;
+    }
+}
+
+/* Seção de Garantia */
+
+.guarantee {
+    width: 100%;
+    padding: 40px 5%;
+    background-color: #f4f9ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.guarantee-content {
+    max-width: 600px;
+}
+
+.guarantee-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: var(--colorPrincipal);
+    margin-bottom: 20px;
+}
+
+.guarantee-text {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+}

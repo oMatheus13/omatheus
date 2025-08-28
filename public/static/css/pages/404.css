@@ -1,0 +1,100 @@
+.main {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-sand-light);
+  font-family: var(--font-family-secondary), sans-serif;
+}
+
+.notfound {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background: none;
+}
+
+.notfound__container {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  max-width: 480px;
+  margin: 0 auto;
+  padding: var(--spacing-lg);
+}
+
+.notfound__code {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -55%);
+  font-size: clamp(16rem, 40vw, 32rem);
+  font-family: var(--font-family-primary), sans-serif;
+  font-weight: var(--font-weight-black);
+  color: var(--color-moss-dark);
+  opacity: 0.2;
+  letter-spacing: 0.05em;
+  z-index: -1;
+  pointer-events: none;
+  user-select: none;
+}
+
+.notfound__title {
+  position: relative;
+  font-size: var(--font-size-h2);
+  font-family: var(--font-family-primary), sans-serif;
+  font-weight: var(--font-weight-bold);
+  color: var(--color-moss);
+  margin-bottom: var(--spacing-md);
+  z-index: 2;
+}
+
+.notfound__description {
+  position: relative;
+  font-size: var(--font-size-lg);
+  color: var(--color-obsidian);
+  margin-bottom: var(--spacing-lg);
+  z-index: 2;
+}
+
+.notfound__button {
+  display: inline-block;
+  padding: var(--spacing-xs) var(--spacing-lg);
+  font-size: var(--font-size-base);
+  font-family: var(--font-family-secondary), sans-serif;
+  font-weight: var(--font-weight-medium);
+  color: var(--color-sand-light);
+  background: var(--color-moss);
+  border-radius: var(--border-radius-full);
+  text-decoration: none;
+  transition: background var(--transition-fast), color var(--transition-fast);
+  z-index: 2;
+}
+
+.notfound__button:hover,
+.notfound__button:focus {
+  background: var(--color-terracotta);
+  color: var(--color-sand);
+}
+
+@media (max-width: 600px) {
+  .notfound__container {
+    padding: var(--spacing-md);
+    max-width: 95vw;
+  }
+  .notfound__code {
+    font-size: 90vw;
+    transform: translate(-50%, -55%) rotate(90deg);
+    left: 50%;
+    top: 50%;
+  }
+  .notfound__title {
+    font-size: var(--font-size-2xl);
+  }
+  .notfound__description {
+    font-size: var(--font-size-base);
+  }
+}

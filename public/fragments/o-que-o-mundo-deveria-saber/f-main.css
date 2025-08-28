@@ -1,0 +1,261 @@
+@import url('f-font.css');
+@import url('f-variable.css');
+@import url("../../assets/css/font.css");
+@import url("../../assets/css/variable.css");
+
+body {
+  background-color: #0000000a;
+}
+
+.main section {
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-bottom: var(--omds-spacing-2xl);
+}
+
+.main article {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: var(--spacing-md);
+}
+
+/* Títulos */
+.omds__title {
+  font-family: var(--omds-font-family-title);
+  font-weight: 600; /* Arsenica Regular */
+  font-size: 2.3rem;
+  color: var(--omds-color-deep-blue);
+  text-align: center;
+  margin-bottom: var(--spacing-md);
+}
+
+/* Subtítulos */
+.omds__subtitle {
+  font-family: var(--omds-font-family-accent); /* Amita */
+  font-size: 1.3rem;
+  color: var(--omds-color-earth-brown);
+  text-align: center;
+  margin-bottom: var(--spacing-lg);
+}
+
+/* Texto Corrido */
+.omds__context {
+  font-family: var(--font-family-secondary); /* Work Sans */
+  font-size: 1.1rem;
+  line-height: 1.7;
+  font-weight: var(--font-weight-regular);
+  color: var(--omds-color-text-dark);
+  margin-bottom: var(--spacing-lg);
+}
+
+.omds__image-placeholder {
+  text-align: center;
+  margin-bottom: var(--spacing-xl);
+}
+
+.omds__image-placeholder img {
+  max-width: 100%;
+  height: auto;
+  border-radius: var(--omds-border-radius);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.omds__image-flipbook {
+  margin-bottom: var(--spacing-xl);
+}
+
+/* Estilos para o Carrossel de Imagens com Fade */
+.omds__image-fade {
+  text-align: center;
+  margin-bottom: var(--spacing-xl);
+  position: relative; /* Para o posicionamento das imagens */
+  height: 200px; /* Defina uma altura para o container */
+}
+
+.omds__image-fade img {
+  position: absolute;
+  top: 50%; /* Centraliza verticalmente */
+  left: 50%; /* Centraliza horizontalmente */
+  transform: translate(-50%, -50%); /* Ajusta o posicionamento */
+  width: 100%;
+  height: auto;
+  border-radius: var(--omds-border-radius);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  opacity: 0; /* Começa com todas as imagens invisíveis */
+  transition: opacity 1s ease-in-out; /* Transição suave na opacidade */
+  z-index: 0; /* Garante que as imagens não ativas estejam atrás */
+}
+
+.omds__image-fade img.active {
+  opacity: 1; /* A imagem com a classe 'active' será visível */
+  z-index: 1; /* Garante que a imagem ativa esteja na frente */
+}
+
+/* Títulos de Seção */
+.omds__author-title,
+.omds__challenge-title,
+.omds__participation-title,
+.omds__solution-title,
+.omds__cier-title,
+.omds__result-title,
+.omds__testimonial-title,
+.omds__galeria-title,
+.omds__aplicacoes-title,
+.omds__leitor-title {
+  font-family: var(--omds-font-family-title);
+  font-weight: normal; /* Arsenica Regular */
+  font-size: 2rem;
+  color: var(--omds-color-ocean-blue);
+  margin-bottom: var(--spacing-md);
+  text-align: center;
+}
+
+/* Descrições de Seção e Textos Longos */
+.omds__author-description,
+.omds__challenge-description,
+.omds__participation-description,
+.omds__solution-capa-description,
+.omds__solution-paginas-description,
+.omds__solution-conceito-description,
+.omds__cier-description,
+.omds__result-description,
+.omds__testimonial-quote,
+.omds__galeria-description,
+.omds__aplicacoes-description,
+.omds__leitor-description {
+  font-family: var(--font-family-secondary); /* Work Sans */
+  font-size: 1.1rem;
+  line-height: 1.7;
+  font-weight: var(--font-weight-regular);
+  color: var(--omds-color-text-dark);
+  margin-bottom: var(--spacing-lg);
+}
+
+/* Títulos Menores (Dentro das Seções de Solução e Galeria) */
+.omds__solution-capa-title,
+.omds__solution-paginas-title,
+.omds__solution-conceito-title,
+.omds__carousel-title {
+  font-family: var(--omds-font-family-accent);
+  font-weight: normal; /* Arsenica Regular */
+  font-size: 1.3rem;
+  color: var(--omds-color-earth-brown);
+  margin-bottom: var(--spacing-sm);
+}
+
+/* Autor do Depoimento */
+.omds__testimonial-author {
+  font-family: var(--omds-font-family-accent); /* Amita */
+  font-size: 1rem;
+  color: var(--omds-color-deep-blue);
+  text-align: right;
+  margin-top: var(--spacing-sm);
+}
+
+/* Link Externo */
+.omds__link {
+  text-align: center;
+  margin-top: var(--spacing-xl);
+}
+
+.omds__link-externo {
+  width: 100%;
+  display: inline-block;
+  padding: var(--spacing-md) var(--spacing-lg);
+  background-color: var(--omds-color-earth-brown);
+  color: var(--omds-color-text-light);
+  font-family: var(--omds-font-family-title);
+  font-weight: normal; /* Arsenica Regular */
+  font-size: 1.2rem;
+  text-decoration: none;
+  border-radius: var(--omds-border-radius);
+  transition: background-color var(--omds-transition-duration) ease;
+}
+
+.omds__link-externo:hover {
+  background-color: var(--omds-color-deep-blue);
+  color: var(--omds-color-text-light);
+}
+
+/* Estilos para o Carrossel de Imagens */
+.omds__image-carousel {
+  display: flex;
+  overflow-x: auto; /* Horizontal scrolling */
+  scroll-snap-type: x mandatory; /* Define o comportamento de "snap" */
+  -webkit-overflow-scrolling: touch; /* Para rolagem suave no iOS */
+  margin-bottom: var(--spacing-xl);
+}
+
+.omds__image-carousel img {
+  flex: 0 0 100%; /* Não encolher, não esticar, tamanho base de 100% */
+  width: 100%; /* Garante que cada imagem ocupa 100% do container */
+  scroll-snap-align: start; /* Alinha o início de cada imagem ao container */
+  object-fit: cover; /* Ajusta o tamanho da imagem para preencher o container, cortando se necessário */
+  border-radius: var(--omds-border-radius);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-right: var(--spacing-md); /* Espaço entre as imagens */
+}
+
+/* Esconde a barra de rolagem (opcional) */
+.omds__image-carousel::-webkit-scrollbar {
+  display: none;
+}
+
+/* Media Queries para Responsividade */
+@media (max-width: var(--omds-breakpoint-md)) {
+  body {
+    max-width: 100%;
+  }
+
+  .omds__title {
+    font-size: 2rem;
+  }
+
+  .omds__subtitle {
+    font-size: 1.2rem;
+  }
+
+  .omds__context {
+    font-size: 0.9rem;
+  }
+
+  .omds__author-title,
+  .omds__challenge-title,
+  .omds__participation-title,
+  .omds__solution-title,
+  .omds__cier-title,
+  .omds__result-title,
+  .omds__testimonial-title,
+  .omds__galeria-title,
+  .omds__aplicacoes-title,
+  .omds__leitor-title {
+    font-size: 1.7rem;
+  }
+
+  .omds__author-description,
+  .omds__challenge-description,
+  .omds__participation-description,
+  .omds__solution-capa-description,
+  .omds__solution-paginas-description,
+  .omds__solution-conceito-description,
+  .omds__cier-description,
+  .omds__result-description,
+  .omds__testimonial-quote,
+  .omds__galeria-description,
+  .omds__aplicacoes-description,
+  .omds__leitor-description {
+    font-size: 1rem;
+  }
+
+  .omds__solution-capa-title,
+  .omds__solution-paginas-title,
+  .omds__solution-conceito-title,
+  .omds__carousel-title {
+    font-size: 1.3rem;
+  }
+
+  .omds__link-externo {
+    width: 100%;
+    font-size: 1rem;
+  }
+}

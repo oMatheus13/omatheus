@@ -1,0 +1,113 @@
+body {
+  background-color: var(--color-sand-light);
+}
+
+.cier__title {
+  font-size: var(--font-size-h2);
+  margin-bottom: var(--spacing-xl); /* Updated margin */
+  text-align: center;
+  color: var(--color-moss); /* Added color */
+  font-family: var(--font-family-primary); /* Added font family */
+}
+
+.cier__subtitle {
+  font-size: var(--font-size-base);
+  line-height: 1.4;
+  margin-bottom: var(--spacing-md);
+  color: var(--color-obsidian);
+  font-family: var(--font-family-secondary);
+  text-align: left;
+  font-weight: var(--font-weight-medium);
+}
+
+.cier__text {
+  font-size: var(--font-size-base);
+  line-height: 1.6;
+  margin-bottom: var(--spacing-sm);
+  color: var(--color-obsidian);
+  font-family: var(--font-family-secondary);
+  text-align: left;
+}
+
+.cier__pillars {
+  padding: var(--spacing-md);
+}
+
+.cier__pillars-item {
+  margin-bottom: var(--spacing-4xl); /* Updated margin */
+  /*border: 1px solid var(--color-stonegray);
+  border-radius: var(--border-radius-md);*/
+}
+
+.cier__pillars-item-title {
+  font-size: var(--font-size-h3);
+  margin-bottom: var(--spacing-sm); /* Updated margin */
+  color: var(--color-terracotta); /* Added color */
+  font-family: var(--font-family-primary); /* Added font family */
+}
+
+.cier__pillars-item-cite {
+  font-style: italic;
+  display: block;
+  margin: var(--spacing-md) 0;
+  padding-left: var(--spacing-lg);
+  border-left: 3px solid var(--color-terracotta);
+  font-family: var(--font-family-primary);
+  color: var(--color-moss);
+}
+
+.cier__pillars-item-text {
+  font-size: var(--font-size-base);
+  line-height: 1.6;
+  margin-top: var(--spacing-sm); /* Updated margin */
+  color: var(--color-obsidian); /* Added color */
+  font-family: var(--font-family-secondary); /* Added font family */
+}
+
+.cier__cta {
+  padding: var(--spacing-md);
+}
+
+.cier__cta-container {
+  text-align: left;
+}
+
+.cier__cta-title {
+  font-size: var(--font-size-h3);
+  margin-bottom: var(--spacing-sm); /* Updated margin */
+  color: var(--color-moss); /* Added color */
+  font-family: var(--font-family-primary); /* Added font family */
+}
+
+.cier__cta-text {
+  font-size: var(--font-size-lg);
+  line-height: 1.6;
+  margin-bottom: var(--spacing-xl);
+  color: var(--color-obsidian);
+  font-family: var(--font-family-secondary);
+}
+
+.cier__cta-button {
+  width: auto;
+  display: inline-block;
+  padding: var(--spacing-sm) var(--spacing-md);
+  background-color: var(--color-terracotta);
+  color: var(--color-sand-light);
+  text-decoration: none;
+  border-radius: var(--border-radius-md);
+  margin-top: var(--spacing-md);
+  transition: transform var(--transition-fast), box-shadow var(--transition-normal);
+}
+
+.cier__cta-button:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--box-shadow-default);
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .cier__cta-button {
+  width: 100%;
+  text-align: center;
+}
+}

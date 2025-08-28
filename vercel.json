@@ -1,0 +1,15 @@
+{
+  "rewrites": [
+    {
+      "source": "/:path*",
+      "destination": "/api/router"
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/OQueOMundoDeveriaSaber",
+      "destination": "/o-que-o-mundo-deveria-saber",
+      "permanent": true
+    }
+  ]
+}

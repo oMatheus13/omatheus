@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <!-- Metadados Essenciais (omitted for brevity) -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <title>Portfólio de Fragmentos | Matheus Farias</title>
+    <meta
+      name="description"
+      content="Um museu do que eu já criei. Projetos de design, identidades visuais, livros, conteúdos e criações que fizeram parte de etapas importantes da minha vida."
+    />
+    <link rel="canonical" href="https://www.omatheus.com/fragments" />
+
+    <!-- Robots Meta Tag -->
+    <meta name="robots" content="index, follow" />
+
+    <!-- Favicon -->
+    <link rel="icon" href="/assets/img/favicon/favicon.ico" sizes="any" />
+    <link rel="icon" href="/assets/img/favicon/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/assets/img/favicon/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Portfólio de Fragmentos | Matheus Farias" />
+    <meta
+      property="og:description"
+      content="Um museu do que eu já criei. Projetos de design, identidades visuais, livros, conteúdos e criações que fizeram parte de etapas importantes da minha vida."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.omatheus.com/" />
+    <!-- Troque o caminho da imagem se quiser -->
+    <meta property="og:image" content="/assets/img/og-image.jpg" />
+    <meta property="og:image:alt" content="Foto de perfil de Matheus Farias com fundo desfocado" />
+    <meta property="og:site_name" content="Matheus Farias Portfolio" />
+    <meta property="og:locale" content="pt_BR" />
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@omatheus13_" />
+    <meta name="twitter:creator" content="@omatheus13_" />
+    <meta name="twitter:title" content="Portfólio de Fragmentos | Matheus Farias" />
+    <meta
+      name="twitter:description"
+      content="Um museu do que eu já criei. Projetos de design, identidades visuais, livros, conteúdos e criações que fizeram parte de etapas importantes da minha vida."
+    />
+    <!-- Troque o caminho da imagem se quiser -->
+    <meta name="twitter:image" content="/assets/img/twitter-image.jpg" />
+    <meta name="twitter:image:alt" content="Foto de perfil de Matheus Farias com fundo desfocado" />
+
+    <!-- Structured Data (Schema.org - JSON-LD) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Matheus Farias",
+        "url": "https://www.omatheus.com/",
+        "image": "https://www.omatheus.com/assets/img/matheus-farias-profile.jpg",
+        "sameAs": ["https://www.instagram.com/omatheus13_/", "https://github.com/omatheus13/"],
+        "jobTitle": "Criador, Escritor e Empreendedor",
+        "alumniOf": "Método CIER",
+        "worksFor": {
+          "@type": "Organization",
+          "name": "MatheusFarias"
+        },
+        "description": "Um museu do que eu já criei. Projetos de design, identidades visuais, livros, conteúdos e criações que fizeram parte de etapas importantes da minha vida."
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Matheus Farias",
+        "url": "https://www.omatheus.com/",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://www.omatheus.com/search?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      }
+    </script>
+
+    <!-- Links para CSS -->
+    <link rel="stylesheet" href="../static/css/reset.css" />
+    <link rel="stylesheet" href="../static/css/fonts.css" />
+    <link rel="stylesheet" href="../static/css/variables.css" />
+    <link rel="stylesheet" href="../static/css/main.css" />
+    <link rel="stylesheet" href="../static/css/components/logo.css" />
+    <link rel="stylesheet" href="../static/css/components/header.css" />
+    <link rel="stylesheet" href="../static/css/components/footer.css" />
+    <link rel="stylesheet" href="../static/css/pages/fragments.css" />
+  </head>
+
+  <body>
+    <!--Header-->
+    <div id="header-placeholder"></div>
+
+    <!-- CONTEÚDO PRINCIPAL DA PÁGINA -->
+    <main class="main">
+      <section class="fragments">
+          <h1 class="fragments__title">Fragmentos</h1>
+          <p class="fragments__description">
+            Este é um museu do que eu já criei. Ao longo da minha jornada, desenvolvi projetos de design, identidades
+            visuais, livros, conteúdos e criações que fizeram parte de etapas importantes da minha vida. E eu junto
+            esses Fragmentos pra te mostrar que nada precisa nascer perfeito. Precisa nascer, viver, quebrar — e deixar
+            história.
+          </p>
+          <p class="fragments__description">
+            Este espaço não é uma vitrine de serviços. É um arquivo vivo do que construí até aqui. Alguns projetos
+            viraram produto. Outros foram teste. Muitos abriram portas — outros fecharam ciclos. Cada fragmento é prova
+            de que improviso, execução e recomeço não são frases — são prática.
+          </p>
+
+        <!-- Filter Section -->
+        <div class="fragments__filters">
+          <h2 class="fragments__filters-title">Filtrar por:</h2>
+          <ul class="fragments__filters-list" id="fragmentFilters"></ul>
+        </div>
+
+        <!-- Fragmento O Que o Mundo Deveria Saber-->
+        <div class="fragments__grid" id="fragmentGrid">
+          <div class="fragment-card" data-tags="design editorial ilustração livro">
+            <img src="../fragments/o-que-o-mundo-deveria-saber/assets/img/fotos-livro-fisico/Book_Dust_Jacket_Mockup_1.png"
+              alt="Imagem do projeto"
+              class="fragment-card__image"/>
+            <div class="fragment-card__content">
+              <h3 class="fragment-card__title">O Que o Mundo Deveria Saber</h3>
+              <p class="fragment-card__description">
+                Criação completa de livro de poesias (capa, diagramação e ilustrações). Este projeto marcou o início da
+                Editora Umoya e foi um divisor de águas na minha trajetória criativa.
+              </p>
+              <a href="/o-que-o-mundo-deveria-saber" class="fragment-card__button">Explorar Fragmento</a>
+            </div>
+          </div>
+        <!-- Fragmento O Fracasso é Seu Melhor Amigo-->
+          <div class="fragment-card" data-tags="design editorial ilustração livro">
+            <img src="../fragments/o-fracasso-e-seu-melhor-amigo/assets/img/thumbnail-ebook.jpg"
+              alt="Imagem do projeto"
+              class="fragment-card__image"/>
+            <div class="fragment-card__content">
+              <h3 class="fragment-card__title">O Fracasso é Seu Melhor Amigo</h3>
+              <p class="fragment-card__description">
+                Criação completa de livro de poesias (capa, diagramação e ilustrações). Este projeto marcou o início da
+                Editora Umoya e foi um divisor de águas na minha trajetória criativa.
+              </p>
+              <a href="/o-fracasso-e-seu-melhor-amigo" class="fragment-card__button">Explorar Fragmento</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--Footer-->
+    <div id="footer-placeholder"></div>
+
+    <script>
+      // Função pra carregar o header e o footer
+      function loadComponent(placeholderId, filePath) {
+        const placeholder = document.getElementById(placeholderId);
+        if (placeholder) {
+          fetch(filePath)
+            .then((res) => {
+              if (!res.ok) {
+                throw new Error(`HTTP error! status: ${res.status}`);
+              }
+              return res.text();
+            })
+            .then((data) => {
+              placeholder.innerHTML = data;
+
+              // SE for o header, ativa o menu hambúrguer
+              if (placeholderId === "header-placeholder") {
+                const toggle = document.querySelector(".nav__toggle");
+                const menu = document.getElementById("nav__menu");
+
+                if (toggle && menu) {
+                  toggle.addEventListener("click", () => {
+                    const expanded = toggle.getAttribute("aria-expanded") === "true";
+                    toggle.setAttribute("aria-expanded", !expanded);
+                    menu.classList.toggle("is-active");
+                    toggle.classList.toggle("is-active");
+                  });
+                }
+              }
+            })
+            .catch((error) => console.error(`Erro ao carregar ${filePath}:`, error));
+        }
+      }
+
+      // Executa o load do header e footer
+      loadComponent("header-placeholder", "../includes/header.html");
+      loadComponent("footer-placeholder", "../includes/footer.html");
+    </script>
+
+    <script src="../static/js/pages/fragments.js" defer></script>
+    <script src="../static/js/main.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,28 @@
+.flipbook {
+    width: 9.33cm;
+    height: 7cm;
+    max-width: 100%;
+}
+
+.flipbook .hard {
+    background: #ffffff !important;
+    color: #fff;
+    font-weight: bold;
+    border: none; 
+}
+
+.flipbook .page {
+    background: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+    gap: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.11);
+}
+
+.page img{
+	width: 100%;
+	object-fit: cover;
+	margin: auto;
+}

@@ -1,0 +1,26 @@
+projetos-marcas-futuro.txt
+Título da seção:
+“Projetos e Marcas”
+
+Texto descritivo:
+“Construir não é sobre fazer tudo ao mesmo tempo. É sobre presença, constância e direção.
+Aqui estão alguns projetos que fazem parte da minha jornada, mas que estão em desenvolvimento. Você vai ouvir muito sobre eles no futuro.”
+
+Subtexto opcional (pode ser aplicado como legenda, rodapé ou descrição pequena):
+“Projetos congelados por enquanto. Em breve, ganham vida.”
+
+Instruções visuais:
+As marcas devem aparecer em preto e branco, com aparência levemente desativada ou congelada, indicando que estão fora de operação ativa no momento.
+
+Sem links ativos.
+
+Sem descrições longas.
+
+Elas existem como parte do ecossistema, mas estão em modo teaser, criando curiosidade e antecipação.
+
+Ordem sugerida de exibição (ajustável conforme espaço e contexto):
+Trebico
+
+Antes do Feed
+
+Outras futuras

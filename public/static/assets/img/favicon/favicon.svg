@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 150">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <g id="Logo_Final" data-name="Logo Final">
+    <path class="cls-1" d="M100,75c-13.81,0-26.31,8.4-35.35,21.97-9.05,13.58-14.65,32.33-14.65,53.03,0-41.41-22.38-75-50-75,13.81,0,26.31-8.4,35.36-21.97,9.05-13.58,14.64-32.33,14.64-53.03,0,20.7,5.6,39.45,14.65,53.03,9.04,13.57,21.54,21.97,35.35,21.97Z"/>
+  </g>
+</svg>

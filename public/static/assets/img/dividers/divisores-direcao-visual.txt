@@ -1,0 +1,60 @@
+Divisores — Direção Visual e Manual de Uso
+Contexto:
+Os divisores fazem parte da identidade visual da marca Matheus Farias. Eles foram desenvolvidos manualmente, a partir de uma exploração própria, inspirada nas referências dos sites de Pedro Primão e Nathaniel Drew, mas com total autoria e variações únicas, criadas para se adequar ao sistema visual da marca.
+
+Eles reforçam a estética editorial, orgânica e emocional que guia toda a identidade, trazendo textura simbólica de imperfeição, processo, movimento e construção real.
+
+Descrição Técnica:
+São compostos por recortes vetoriais ou imagens em fundo transparente, simulando rasgos de papel.
+
+Não possuem textura interna — são apenas as formas dos rasgos.
+
+Foram gerados em 10 variações, com possibilidades infinitas a partir de:
+
+Espelhamento horizontal
+
+Espelhamento vertical
+
+Rotação
+
+Sobreposição em camadas
+
+Aplicação combinada com diferentes cores de fundo
+
+Tipos de Divisores:
+Suaves: transições mais leves, discretas, elegantes.
+
+Brutais: cortes irregulares, fortes, com presença, aplicados em momentos que pedem mais impacto visual.
+
+Regras de Aplicação:
+O divisor deve sempre seguir a lógica da composição, do alinhamento e da hierarquia visual da seção.
+
+Pode ser usado na horizontal (topo ou rodapé da seção) ou em qualquer eixo, se fizer sentido estético.
+
+Permite sobreposição de camadas, criando profundidade:
+
+Fundo com Areia Fina (#f2e9dc) ou variações.
+
+Frente com a cor da seção superior ou inferior.
+
+O uso deve respeitar contraste e leitura.
+
+Se gerar ruído visual, desconexão ou excesso, é retirado.
+
+Instrução Funcional:
+Os divisores não são elementos fixos de uma única função.
+
+São ativos visuais versáteis, modulares e aplicáveis conforme contexto.
+
+Adaptáveis a diferentes tamanhos de tela, proporções e alinhamentos.
+
+Instruções para o Programador e Designer:
+Tem liberdade para escolher qual variação usar, espelhar, rotacionar ou combinar.
+
+Manter a coerência estética definida no brandbook e nos arquivos de direção visual.
+
+Caso surja uma necessidade específica (como adaptação para mobile, responsividade ou contexto especial), pode ser feita uma variação nova a partir da base existente.
+
+Atenção Final:
+Esses divisores não são decoração.
+Eles carregam conceito. Eles são metáforas visuais. Eles fazem parte da narrativa de imperfeição, lapidação e movimento da marca Matheus Farias.

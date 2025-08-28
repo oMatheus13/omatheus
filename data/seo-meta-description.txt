@@ -1,0 +1,14 @@
+Meta description padrão do site:
+“Matheus Farias — criador, escritor e empreendedor. Uma jornada de recomeço, presença e clareza. Minha missão é inspirar pessoas que querem viver com coragem, propósito e movimento.”
+
+Meta description da Home:
+“Site oficial de Matheus Farias. Criador, escritor e empreendedor. Aqui você encontra minha jornada, meu portfólio, meus projetos e meu propósito.”
+
+Meta description da página Sobre:
+“Conheça a história de Matheus Farias — criador, escritor e empreendedor. Uma jornada real de recomeços, clareza, disciplina e transformação.”
+
+Meta description da página Portfólio:
+“Portfólio de Matheus Farias. Um museu de projetos que fizeram parte da minha trajetória como criador: livros, design, identidade visual e muito mais.”
+
+Meta description da página Contato:
+“Fale com Matheus Farias. Entre em contato, envie uma mensagem ou se conecte diretamente pelo site, WhatsApp ou Instagram.”

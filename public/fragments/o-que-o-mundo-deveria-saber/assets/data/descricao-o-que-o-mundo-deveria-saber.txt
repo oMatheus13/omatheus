@@ -1,0 +1,59 @@
+O Que o Mundo Deveria Saber
+Design Editorial e Ilustração
+
+Contexto
+Criação completa de livro de poesias (capa, diagramação e ilustrações). Este projeto marcou o início da Editora Umoya e foi um divisor de águas na minha trajetória criativa.
+📍 [Imagem 1 – Capa do livro aplicada em mockup ou foto real]
+
+Sobre o Autor
+Zayhon Nepomuceno, nascido em Recife, Pernambuco, em 2005, é um jovem poeta cuja jornada é marcada por uma notável criatividade e uma dedicação inabalável. Desde cedo, Zayhon encontrou na poesia uma forma de expressar suas reflexões e críticas sobre o mundo.
+Sua paixão pela palavra floresceu nos corredores da biblioteca de sua escola pública, onde devorou as obras de Patativa do Assaré, um poeta que o inspirou profundamente. Essa sede de conhecimento e a capacidade de transformar inspiração em prática são a essência de Zayhon.
+"O Que o Mundo Deveria Saber" é o resultado dessa busca incessante, um convite à reflexão através de poesias que tocam a alma e provocam o pensamento. A história por trás do livro é a própria história de Zayhon: a de um jovem que, com coragem e sensibilidade, transforma suas observações em arte, convidando o leitor a uma jornada de autoconhecimento e crítica social.
+📍 [Imagem 2 – Foto ou ilustração do autor]
+
+O Desafio
+Tudo começou com um convite inesperado de um amigo: criar um livro do zero. Naquele momento, eu não tinha conhecimento algum sobre editoração ou design de livros. O desafio era total: transformar um manuscrito de poesias reflexivas e críticas em uma obra finalizada, sem qualquer experiência prévia. Era um salto no desconhecido, um projeto que exigia não só habilidade técnica, mas também uma profunda conexão com a visão do autor.
+📍 [Imagem 3 – Rascunho inicial da capa ou anotações do processo]
+
+Minha Participação
+Aceitei o desafio como uma oportunidade de aprendizado e crescimento. Mergulhei de cabeça no universo da editoração e do design de livros, estudando cada etapa do processo. Fui responsável por absolutamente tudo que uma editora faz: desde a concepção visual da capa e a diagramação interna, até a criação de ilustrações originais. Este projeto foi o pontapé inicial para a fundação da minha própria editora, a Umoya, e me permitiu aplicar minha curiosidade e capacidade de aprender rapidamente para entregar um resultado profissional desde o primeiro momento.
+📍 [Imagem 4 – Carrossel de processo ou timelapse dos bastidores]
+
+A Solução
+Capa Final: A capa, inspirada nas pinturas de Van Gogh, mas com minha releitura e estilo de ilustração próprio, transmite uma leveza profunda. A ideia original veio do autor, e o resultado final reflete essa colaboração, combinando arte clássica com uma estética contemporânea e autoral. 
+📍 [Imagem 5 – Comparação entre rascunho e capa final, pode ser uma imagem sobrepondo a outra com efeito de fadein fade out]
+Páginas Internas e Ilustrações: A diagramação interna foi pensada para valorizar a poesia, com amplo uso de espaço negativo, criando uma experiência de leitura fluida e contemplativa. As poesias de Zayhon Nepomuceno são pontuadas por ilustrações no estilo one-line, onde cada desenho é feito com uma única linha contínua, adicionando um toque minimalista e emocional que complementa a profundidade dos textos. O processo foi colaborativo, com discussões diárias e um olhar crítico constante para os detalhes, garantindo que cada elemento visual amplificasse a mensagem do autor.
+📍 [Imagem 6 – Mockup das páginas internas + destaque para uma ou duas ilustrações]
+Conceito: O projeto é um testemunho da minha crença na coragem e na execução. Cada escolha de design e cada ilustração foram feitas para amplificar a mensagem das poesias, criando uma obra que é visualmente impactante e emocionalmente ressonante.
+
+Aplicação do Método CIER
+Esse projeto é um reflexo direto da aplicação dos 4 pilares do meu método:
+
+Coragem: aceitei um desafio totalmente novo, mesmo sem domínio técnico.
+Improviso: Mesmo não tendo nenhum conhecimento sobre a área, improvisei com o pouco que sabia enquando pesquisava e aprendia.
+Execução: enquato aprendia, já ia colocando em prática com dedicação, disciplina e foco no resultado. Mantive a autenticidade do autor, mas trouxe minha estética de forma respeitosa e criativa.
+Recomeço: Quando errava alguma coisa, recomeçava sem medo. Esse livro foi o marco inicial da Umoya. Foi o ponto onde tudo começou a tomar rumo.
+📍 [Imagem 7 – Ilustração conceitual com os quatro pilares representados visualmente]
+
+O Resultado
+"O Que o Mundo Deveria Saber" não foi apenas o meu primeiro livro, mas se tornou um dos meus trabalhos mais significativos. Ele não só provou minha capacidade de aprender e executar sob pressão, como também abriu inúmeras portas para novas oportunidades de criação e colaboração, solidificando minha atuação no design editorial e na ilustração. Foi o marco zero da Editora Umoya, e um projeto que continua a impactar leitores com suas mensagens e sua estética única.
+📍 [Imagem 8 – Trechos do livro em destaque]
+
+"A experiência de criar 'O Que o Mundo Deveria Saber' com o Matheus foi incrivelmente gratificante. Ele não só fez o livro exatamente do jeito que eu queria, sendo organizado e detalhista nos mínimos detalhes, mas também me ensinou muito sobre o processo. O trabalho dele é realmente incrível, ele se entrega 100% e se superou em cada arte do livro. Foi lindo acompanhar o passo a passo de perto, ver como ele estava sempre aberto a ideias e opiniões, mesmo com o meu olhar crítico para os detalhes. O Matheus sempre se superava, e foi muito bom ver a dedicação dele de perto. Tenho certeza que quem ler o livro vai se apaixonar pelo trabalho dele e, claro, pelas mensagens que o livro transmite e que você vai levar para a vida."
+— Zayhon Nepomuceno, Autor de "O Que o Mundo Deveria Saber"
+📍 [Imagem 9 – Post único com o depoimento ou trecho em destaque com citação visual]
+
+
+📼 Galeria de Carrosséis Promocionais:
+📍 [Inserir os 2 carrosséis já prontos]
+
+🎨 Aplicações das ilustrações:
+📍 [Mockups em quadros, capinha de celular, fita cassete]
+
+📖 Leitor Interativo:
+No fim da página, o visitante pode folhear algumas páginas do livro com um efeito de virada real (feito com CSS + JS).
+
+📍 [Área para integração do livro virtual]
+
+11. Link Externo
+[Link para compra do Ebook na Kiwify]

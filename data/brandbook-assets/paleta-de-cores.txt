@@ -1,0 +1,37 @@
+Paleta de Cores — Matheus Farias
+Cores principais da identidade:
+Musgo Profundo — #404b43 (Cor primária — representa equilíbrio, sobriedade e conexão com a essência.)
+
+Areia Fina — #f2e9dc (Base neutra — transmite leveza, clareza e respiro visual.)
+
+Terracota Fumê — #c08457 (Cor de apoio — adiciona calor, profundidade emocional e contraste pontual.)
+
+→ Essas são as três cores prioritárias no uso geral do site e da comunicação visual.
+
+Cores complementares de contraste e suporte:
+Azul Obsidiana — #0d1b2a (Usado em fundos escuros, texto ou detalhes de contraste mais pesado.)
+
+Cinza Pó de Pedra — #a6a2a2 (Cor de apoio neutro para detalhes, divisores, legendas ou elementos secundários.)
+
+Orientações Gerais:
+A aplicação das cores deve seguir o mesmo raciocínio e lógica apresentada no brandbook oficial da marca Matheus Farias (anexado nesta entrega).
+
+O programador tem liberdade para utilizar variações, tons e opacidades dentro desses códigos, desde que mantenha o equilíbrio e os princípios definidos na direção criativa.
+
+Musgo Profundo, Areia Fina e Terracota Fumê são as cores que devem aparecer com mais frequência, seja na interface, nos destaques ou nas áreas principais do site.
+
+Azul Obsidiana e Cinza Pó de Pedra entram como suporte, contraste ou para elementos discretos e sofisticados.
+
+Variações das Cores:
+Verde Oliva Suave — #909d66
+→ Cor usada pontualmente em detalhes gráficos, ilustrações, elementos orgânicos e pequenos acentos visuais.
+→ Essa cor não faz parte da paleta oficial, é uma variação provisória e pode ser ajustada futuramente.
+
+Instrução importante:
+Durante o desenvolvimento, caso sejam criadas outras variações de tom, saturação ou opacidade dessas cores, o programador deve:
+→ Atualizar este arquivo na seção "Variações das Cores" com os códigos HEX ou RGBA das variações aplicadas.
+→ Anotar onde essas variações estão sendo usadas.
+→ Deixar documentado para futura análise, refinamento e oficialização dessas cores na identidade visual da marca.
+
+Referência obrigatória:
+→ Consultar o Brandbook — sessão de Cores e Direção Criativa — para entender os princípios, hierarquias e aplicação correta da paleta.

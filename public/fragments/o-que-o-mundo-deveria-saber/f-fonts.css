@@ -1,0 +1,263 @@
+/* Amita */
+@font-face {
+    font-family: 'Amita';
+    src: url('assets/fonts/amita/Amita-Bold.woff2') format('woff2'),
+        url('assets/fonts/amita/Amita-Bold.woff') format('woff'),
+        url('assets/fonts/amita/Amita-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Amita';
+    src: url('assets/fonts/amita/Amita-Regular.woff2') format('woff2'),
+        url('assets/fonts/amita/Amita-Regular.woff') format('woff'),
+        url('assets/fonts/amita/Amita-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Arsenica */
+@font-face {
+    font-family: 'Arsenica';
+    src: url('assets/fonts/arsenica/ArsenicaTrial-Demibold.woff2') format('woff2'),
+        url('assets/fonts/arsenica/ArsenicaTrial-Demibold.woff') format('woff'),
+        url('assets/fonts/arsenica/ArsenicaTrial-Demibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arsenica';
+    src: url('assets/fonts/arsenica/ArsenicaTrial-Bold.woff2') format('woff2'),
+        url('assets/fonts/arsenica/ArsenicaTrial-Bold.woff') format('woff'),
+        url('assets/fonts/arsenica/ArsenicaTrial-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arsenica';
+    src: url('assets/fonts/arsenica/ArsenicaTrial-BoldItalic.woff2') format('woff2'),
+        url('assets/fonts/arsenica/ArsenicaTrial-BoldItalic.woff') format('woff'),
+        url('assets/fonts/arsenica/ArsenicaTrial-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arsenica';
+    src: url('assets/fonts/arsenica/ArsenicaTrial-DemiboldItalic.woff2') format('woff2'),
+        url('assets/fonts/arsenica/ArsenicaTrial-DemiboldItalic.woff') format('woff'),
+        url('assets/fonts/arsenica/ArsenicaTrial-DemiboldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arsenica';
+    src: url('assets/fonts/arsenica/ArsenicaTrial-Light.woff2') format('woff2'),
+        url('assets/fonts/arsenica/ArsenicaTrial-Light.woff') format('woff'),
+        url('assets/fonts/arsenica/ArsenicaTrial-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arsenica';
+    src: url('assets/fonts/arsenica/ArsenicaTrial-Extrabold.woff2') format('woff2'),
+        url('assets/fonts/arsenica/ArsenicaTrial-Extrabold.woff') format('woff'),
+        url('assets/fonts/arsenica/ArsenicaTrial-Extrabold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arsenica';
+    src: url('assets/fonts/arsenica/ArsenicaTrial-Italic.woff2') format('woff2'),
+        url('assets/fonts/arsenica/ArsenicaTrial-Italic.woff') format('woff'),
+        url('assets/fonts/arsenica/ArsenicaTrial-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arsenica';
+    src: url('assets/fonts/arsenica/ArsenicaTrial-ExtraboldItalic.woff2') format('woff2'),
+        url('assets/fonts/arsenica/ArsenicaTrial-ExtraboldItalic.woff') format('woff'),
+        url('assets/fonts/arsenica/ArsenicaTrial-ExtraboldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arsenica';
+    src: url('assets/fonts/arsenica/ArsenicaTrial-Medium.woff2') format('woff2'),
+        url('assets/fonts/arsenica/ArsenicaTrial-Medium.woff') format('woff'),
+        url('assets/fonts/arsenica/ArsenicaTrial-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arsenica';
+    src: url('assets/fonts/arsenica/ArsenicaTrial-LightItalic.woff2') format('woff2'),
+        url('assets/fonts/arsenica/ArsenicaTrial-LightItalic.woff') format('woff'),
+        url('assets/fonts/arsenica/ArsenicaTrial-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arsenica';
+    src: url('assets/fonts/arsenica/ArsenicaTrial-Regular.woff2') format('woff2'),
+        url('assets/fonts/arsenica/ArsenicaTrial-Regular.woff') format('woff'),
+        url('assets/fonts/arsenica/ArsenicaTrial-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arsenica';
+    src: url('assets/fonts/arsenica/ArsenicaTrial-MediumItalic.woff2') format('woff2'),
+        url('assets/fonts/arsenica/ArsenicaTrial-MediumItalic.woff') format('woff'),
+        url('assets/fonts/arsenica/ArsenicaTrial-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arsenica';
+    src: url('assets/fonts/arsenica/ArsenicaTrial-ThinItalic.woff2') format('woff2'),
+        url('assets/fonts/arsenica/ArsenicaTrial-ThinItalic.woff') format('woff'),
+        url('assets/fonts/arsenica/ArsenicaTrial-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arsenica';
+    src: url('assets/fonts/arsenica/ArsenicaTrial-Thin.woff2') format('woff2'),
+        url('assets/fonts/arsenica/ArsenicaTrial-Thin.woff') format('woff'),
+        url('assets/fonts/arsenica/ArsenicaTrial-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Cormorant */
+@font-face {
+    font-family: 'Cormorant';
+    src: url('assets/fonts/cormorant/Cormorant-Medium.woff2') format('woff2'),
+        url('assets/fonts/cormorant/Cormorant-Medium.woff') format('woff'),
+        url('assets/fonts/cormorant/Cormorant-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cormorant';
+    src: url('assets/fonts/cormorant/Cormorant-Light.woff2') format('woff2'),
+        url('assets/fonts/cormorant/Cormorant-Light.woff') format('woff'),
+        url('assets/fonts/cormorant/Cormorant-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cormorant';
+    src: url('assets/fonts/cormorant/Cormorant-Bold.woff2') format('woff2'),
+        url('assets/fonts/cormorant/Cormorant-Bold.woff') format('woff'),
+        url('assets/fonts/cormorant/Cormorant-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cormorant';
+    src: url('assets/fonts/cormorant/Cormorant-Italic.woff2') format('woff2'),
+        url('assets/fonts/cormorant/Cormorant-Italic.woff') format('woff'),
+        url('assets/fonts/cormorant/Cormorant-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cormorant';
+    src: url('assets/fonts/cormorant/Cormorant-LightItalic.woff2') format('woff2'),
+        url('assets/fonts/cormorant/Cormorant-LightItalic.woff') format('woff'),
+        url('assets/fonts/cormorant/Cormorant-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cormorant';
+    src: url('assets/fonts/cormorant/Cormorant-BoldItalic.woff2') format('woff2'),
+        url('assets/fonts/cormorant/Cormorant-BoldItalic.woff') format('woff'),
+        url('assets/fonts/cormorant/Cormorant-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cormorant';
+    src: url('assets/fonts/cormorant/Cormorant-SemiBoldItalic.woff2') format('woff2'),
+        url('assets/fonts/cormorant/Cormorant-SemiBoldItalic.woff') format('woff'),
+        url('assets/fonts/cormorant/Cormorant-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cormorant';
+    src: url('assets/fonts/cormorant/Cormorant-Regular.woff2') format('woff2'),
+        url('assets/fonts/cormorant/Cormorant-Regular.woff') format('woff'),
+        url('assets/fonts/cormorant/Cormorant-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cormorant';
+    src: url('assets/fonts/cormorant/Cormorant-SemiBold.woff2') format('woff2'),
+        url('assets/fonts/cormorant/Cormorant-SemiBold.woff') format('woff'),
+        url('assets/fonts/cormorant/Cormorant-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cormorant';
+    src: url('assets/fonts/cormorant/Cormorant-MediumItalic.woff2') format('woff2'),
+        url('assets/fonts/cormorant/Cormorant-MediumItalic.woff') format('woff'),
+        url('assets/fonts/cormorant/Cormorant-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+

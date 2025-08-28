@@ -1,0 +1,36 @@
+:root {
+  /* Cores Primárias (Ilustração da Capa) */
+  --omds-color-sun-yellow: #ffda00; /* R=255 G=218 B=0 */
+  --omds-color-ocean-blue: #004b78; /* R=0 G=75 B=120 */
+  --omds-color-earth-brown: #d8a20c; /* R=216 G=162 B=12 */
+  --omds-color-deep-blue: #0d4272; /* R=13 G=66 B=114 */
+  --omds-color-sand-yellow: #f8edc6; /* R=248 G=237 B=198 */
+
+  /* Cores de Apoio */
+  --omds-color-text-dark: #000; /* Black - RGB - 35, 31, 32 */
+  --omds-color-text-light: #fff; /* White - RGB - 255, 255, 255 */
+
+  /* Tipografia */
+  --omds-font-family-title: "Arsenica", sans-serif;
+  --omds-font-family-body: "Cormorant", serif;
+  --omds-font-family-accent: "Amita", cursive;
+
+  /* Espaçamentos (Baseados em variable.css) */
+  --omds-spacing-xs: 0.5rem; /* 8px */
+  --omds-spacing-sm: 1rem; /* 16px */
+  --omds-spacing-md: 1.5rem; /* 24px */
+  --omds-spacing-lg: 2rem; /* 32px */
+  --omds-spacing-xl: 3rem; /* 48px */
+  --omds-spacing-2xl: 4rem; /* 64px */
+
+  /* Breakpoints */
+  --omds-breakpoint-sm: 640px;
+  --omds-breakpoint-md: 768px;
+  --omds-breakpoint-lg: 1024px;
+  --omds-breakpoint-xl: 1280px;
+  --omds-breakpoint-2xl: 1536px;
+
+  /* Outros */
+  --omds-transition-duration: 0.3s;
+  --omds-border-radius: 16px;
+}

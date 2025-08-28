@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <!-- Metadados Essenciais -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <title>Erro 404 - Página Não Encontrada | Matheus Farias</title>
+    <meta name="description" content="Página não encontrada. O endereço acessado não existe ou foi removido. Volte para o início e continue navegando no site de Matheus Farias." />
+
+    <link rel="canonical" href="https://www.omatheus.com/404" />
+
+    <!-- Robots Meta Tag -->
+    <meta name="robots" content="index, follow" />
+
+    <!-- Favicon -->
+    <link rel="icon" href="/assets/img/favicon/favicon.ico" sizes="any" />
+    <link rel="icon" href="/assets/img/favicon/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/assets/img/favicon/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Erro 404 - Página Não Encontrada | Matheus Farias" />
+    <meta property="og:description" content="Página não encontrada. O endereço acessado não existe ou foi removido. Volte para o início e continue navegando no site de Matheus Farias." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.omatheus.com/" />
+    <!-- Troque o caminho da imagem se quiser -->
+    <meta property="og:image" content="/assets/img/og-image.jpg" />
+    <meta property="og:image:alt" content="Foto de perfil de Matheus Farias com fundo desfocado" />
+    <meta property="og:site_name" content="Matheus Farias Portfolio" />
+    <meta property="og:locale" content="pt_BR" />
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@omatheus13_" />
+    <meta name="twitter:creator" content="@omatheus13_" />
+    <meta name="twitter:title" content="Erro 404 - Página Não Encontrada | Matheus Farias" />
+    <meta name="twitter:description" content="Página não encontrada. O endereço acessado não existe ou foi removido. Volte para o início e continue navegando no site de Matheus Farias." />
+    <!-- Troque o caminho da imagem se quiser -->
+    <meta name="twitter:image" content="/assets/img/twitter-image.jpg" />
+    <meta name="twitter:image:alt" content="Foto de perfil de Matheus Farias com fundo desfocado" />
+
+    <!-- Structured Data (Schema.org - JSON-LD) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Matheus Farias",
+        "url": "https://www.omatheus.com/",
+        "image": "https://www.omatheus.com/assets/img/matheus-farias-profile.jpg",
+        "sameAs": ["https://www.instagram.com/omatheus13_/", "https://github.com/omatheus13/"],
+        "jobTitle": "Criador, Escritor e Empreendedor",
+        "alumniOf": "Método CIER",
+        "worksFor": {
+          "@type": "Organization",
+          "name": "MatheusFarias"
+        },
+        "description": "Página não encontrada. O endereço acessado não existe ou foi removido. Volte para o início e continue navegando no site de Matheus Farias."
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Matheus Farias",
+        "url": "https://www.omatheus.com/",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://www.omatheus.com/search?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      }
+    </script>
+
+    <!-- Links para CSS -->
+    <link rel="stylesheet" href="../static/css/reset.css" />
+    <link rel="stylesheet" href="../static/css/fonts.css" />
+    <link rel="stylesheet" href="../static/css/variables.css" />
+    <link rel="stylesheet" href="../static/css/main.css" />
+    <link rel="stylesheet" href="../static/css/components/logo.css" />
+    <link rel="stylesheet" href="../static/css/components/header.css" />
+    <link rel="stylesheet" href="../static/css/components/footer.css" />
+    <link rel="stylesheet" href="../static/css/pages/404.css">
+  </head>
+
+  <body>
+    <!--Header-->
+    <div id="header-placeholder"></div>
+
+    <!-- CONTEÚDO PRINCIPAL DA PÁGINA -->
+    <main class="main">
+      <section class="notfound">
+        <div class="notfound__container">
+          <h1 class="notfound__code">404</h1>
+          <h2 class="notfound__title">Página não encontrada</h2>
+          <p class="notfound__description">
+            Ops! Parece que você tentou acessar uma página que não existe.<br />
+            Verifique o endereço ou volte para a página inicial.
+          </p>
+          <a href="/" class="notfound__button">Voltar para o início</a>
+        </div>
+      </section>
+    </main>
+
+    <!--Footer-->
+    <div id="footer-placeholder"></div>
+
+    <script>
+      // Carrega header e footer externos
+      function loadComponent(placeholderId, filePath) {
+        const placeholder = document.getElementById(placeholderId);
+        if (placeholder) {
+          fetch(filePath)
+            .then((res) => {
+              if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`);
+              return res.text();
+            })
+            .then((data) => {
+              placeholder.innerHTML = data;
+              // Ativa menu hambúrguer se for header
+              if (placeholderId === "header-placeholder") {
+                const toggle = document.querySelector(".nav__toggle");
+                const menu = document.getElementById("nav__menu");
+                if (toggle && menu) {
+                  toggle.addEventListener("click", () => {
+                    const expanded = toggle.getAttribute("aria-expanded") === "true";
+                    toggle.setAttribute("aria-expanded", !expanded);
+                    menu.classList.toggle("is-active");
+                    toggle.classList.toggle("is-active");
+                  });
+                }
+              }
+            })
+            .catch((error) => console.error(`Erro ao carregar ${filePath}:`, error));
+        }
+      }
+      // Executa o load do header e footer
+      loadComponent("header-placeholder", "../includes/header.html");
+      loadComponent("footer-placeholder", "../includes/footer.html");
+    </script>
+    <script src="../static/js/main.js" defer></script>
+  </body>
+</html>
