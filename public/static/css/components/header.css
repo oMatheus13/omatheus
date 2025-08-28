@@ -120,7 +120,7 @@
 
 
     .nav__toggle[aria-expanded="true"] + .nav__list {
-        max-height: 500px; /* Ou maior, depende da altura máxima real */
+        max-height: 600px; /* Ou maior, depende da altura máxima real */
         padding: var(--spacing-md) 0;
     }
 
@@ -134,4 +134,4 @@
         display: block; /* Faz o link preencher o item */
         padding: 0.5rem var(--spacing-md);
     }
-} 
+}

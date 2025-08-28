@@ -1,6 +1,6 @@
 .logo {
     font-family: var(--font-family-primary);
-    font-size: 1.3rem; /* Tamanho da fonte da logo */
+    font-size: 1.6rem; /* Tamanho da fonte da logo */
     text-transform: uppercase; /* Transforma o texto em maiúsculas */
     letter-spacing: 0.05em; /* Espaçamento entre letras */
     white-space: nowrap; /* Evita que o nome quebre em duas linhas */

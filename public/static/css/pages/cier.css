@@ -5,7 +5,7 @@ body {
 .cier__title {
   font-size: var(--font-size-h2);
   margin-bottom: var(--spacing-xl); /* Updated margin */
-  text-align: center;
+  text-align: left;
   color: var(--color-moss); /* Added color */
   font-family: var(--font-family-primary); /* Added font family */
 }
