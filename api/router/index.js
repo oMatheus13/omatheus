@@ -19,26 +19,26 @@ module.exports = (req, res) => {
 
   // If the requested path is empty (root path), serve the main index.html
   if (!requestedPath) {
-    filePath = path.join(process.cwd(), 'index.html');
+    filePath = path.join(process.cwd(), 'public', 'index.html');
     if (fs.existsSync(filePath)) {
       return sendFileContent(filePath);
     }
   } else {
     // Check if the requested path exists as a file in 'pages' directory
-    filePath = path.join(process.cwd(), 'pages', `${requestedPath}.html`);
+    filePath = path.join(process.cwd(), 'public', 'pages', `${requestedPath}.html`);
     if (fs.existsSync(filePath)) {
       return sendFileContent(filePath);
     }
 
     // Check if the requested path exists as a file in 'fragments' directory
-    filePath = path.join(process.cwd(), 'fragments', requestedPath, 'index.html');
+    filePath = path.join(process.cwd(), 'public', 'fragments', requestedPath, 'index.html');
     if (fs.existsSync(filePath)) {
       return sendFileContent(filePath);
     }
   }
 
   // If no file is found, return the custom 404 page
-  const notFoundPath = path.join(process.cwd(), 'pages', '404.html');
+  const notFoundPath = path.join(process.cwd(), 'public', 'pages', '404.html');
   if (fs.existsSync(notFoundPath)) {
     return sendFileContent(notFoundPath);
   }
