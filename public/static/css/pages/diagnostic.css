@@ -1,18 +1,3 @@
-/*
-  CSS para a página de diagnóstico diagnostic.html
-  Escopo: Estilos específicos para a página de diagnóstico.
-*/
-
-/* Importa as variáveis CSS */
-/* @import url('../css/variables.css'); */ /* Não é necessário importar, pois já está no HTML */
-
-/* Estilos Globais da Página */
-.diagnostic {
-  padding: 0;
-  margin: 0 auto;
-}
-
-/* Estilos para o Hero da Página */
 .diagnostic__hero {
   padding: var(--spacing-md);
   text-align: center;
